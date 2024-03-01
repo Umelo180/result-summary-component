@@ -1,0 +1,279 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-family: "Hanken Grotesk", sans-serif;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+
+.main {
+  margin: 100px auto;
+}
+
+.sub-main {
+  width: 375px;
+  background-color: #fff;
+
+}
+
+.img-left {
+  background-color: hsl(241, 86%, 57%);
+  padding: 32px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+h4 {
+  font-size: 16px;
+  color: #e6e6e6;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.speed {
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgb(70, 18, 212), hsl(241, 86%, 57%));
+  border-radius: 100%;
+  width: 125px;
+  height: 123px;
+  align-items: center;
+  margin: auto;
+  padding: 25px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 52px;
+  color: #fff;
+  margin-bottom: 10px;
+  /* width: 100px;
+  height: 100px; */
+
+
+}
+
+.child {
+  font-size: 12px;
+  color: #b8b8b8;
+  display: inline-block;
+}
+
+.gre {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.text {
+  font-size: 14px;
+  color: #cfcfcf;
+  width: 67%; 
+  margin-left: 50px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.img-right {
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  
+}
+
+.sum {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.reaction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(0, 71%, 97%);
+  border-radius: 10px;
+  padding: 1.1em;
+  margin-bottom: 24px;
+}
+
+.join {
+  display: flex;
+  gap: 18px;
+}
+
+.color1 {
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(0, 100%, 67%);
+}
+
+.para {
+  color: black;
+  font-weight: 700;
+}
+
+.memory {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(38, 100%, 96%);
+  border-radius: 10px;
+  padding: 1.1em;
+  margin-bottom: 24px;
+}
+
+.color2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(166, 48%, 95%);
+  border-radius: 10px;
+  padding: 1.1em;
+  margin-bottom: 24px;
+}
+
+.color3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(166, 100%, 37%);
+}
+
+.visual {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(236, 70%, 96%);
+  border-radius: 10px;
+  padding: 1.1em;
+  margin-bottom: 24px;
+}
+
+.color4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(234, 85%, 45%)
+}
+
+.btn {
+  color: #fff;
+  background-color: rgb(54, 54, 92);
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0.7em;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 900px) {
+
+  body {
+    background-color: #fff;
+  }
+
+  .main {
+    margin: 150px auto;
+  }
+
+  .sub-main {
+    display: flex;
+    gap: 18px;
+    width: 700px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 10px 20px 22px hsl(167, 63%, 93%);
+  }
+
+  .img-left {
+    width: 350px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    /* padding: 24px; */
+  }
+
+  .child {
+    font-size: 14px;
+  }
+
+  .speed {
+    margin-top: 32px;
+    width: 180px;
+    height: 180px;
+    padding: 47px;
+  }
+
+  h4 {
+    margin-bottom: 24px;
+    padding-top: 24px;
+  }
+
+  h2 {
+    font-size: 64px;
+  }
+
+  .speed {
+    margin-bottom: 50px;
+  }
+
+  .gre {
+    margin-top: 24px;
+    margin-bottom: 18px;
+    /* padding-top: 40px; */
+  }
+
+  .text {
+    text-align: center;
+    padding-top: 10px; 
+  }
+
+  .reaction {
+    width: 130%;
+  }
+
+  .memory {
+    width: 130%;
+  }
+
+  .verbal {
+    width: 130%;
+  }
+
+  .visual {
+    width: 130%;
+  }
+
+  .btn {
+    width: 130%;
+    margin-top: 15px;
+  }
+}
